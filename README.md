@@ -1,8 +1,19 @@
+<p align="center">
+  <img src="./.github/readme-cover.svg" alt="Ignite Shop: Do catálogo à sessão de checkout." width="100%" />
+</p>
+
 # Ignite Shop · catálogo e checkout
 
 Loja de demonstração com produtos, detalhes e redirecionamento para checkout do Stripe.
 
 Projeto de estudo da trilha Ignite da Rocketseat: Next.js 13, React, TypeScript, Stitches e Keen Slider.
+
+## Explore o diferencial
+
+| Ponto de entrada | O que observar |
+| --- | --- |
+| [Fronteira cliente e servidor](src/pages/api/checkout.ts) | A sessão de checkout é criada em uma rota de API do Next.js. |
+| [Experiência de produto](src/pages/product/[id].tsx) | A página de detalhes liga a apresentação do item ao fluxo de compra. |
 
 ## Destaques
 
